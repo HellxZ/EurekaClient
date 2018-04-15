@@ -1,0 +1,12 @@
+server:
+  port: 8001
+eureka:
+  instance:
+      hostname: discovery
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:1111/eureka/
+
+spring:
+  application:
+    name: hello-eureka
